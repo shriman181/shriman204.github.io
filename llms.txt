@@ -1,0 +1,34 @@
+# Neuvex
+
+> Neuvex is moldable software infrastructure. Software vendors expose their app's capabilities as governed, contract-bound "primitives" instead of a fixed user interface. Their users' coding agents then build custom interfaces and middleware against those primitives inside a sandboxed, auditable and reversible runtime, while the vendor keeps control of data, auth and business logic.
+
+## In plain language
+
+Coding agents can now build custom software for almost anyone, but a software vendor cannot safely let an outside agent touch its live app. Neuvex is the layer in between. The vendor declares what each primitive may expose and do. Any coding agent can then reshape the interface for its user, and Neuvex checks every call against the vendor's rules at runtime.
+
+## How it works
+
+- Define primitives: the vendor annotates its existing API and handlers with Neuvex contracts. `neuvex init` scaffolds allow and deny rules on data, actions and scopes.
+- Users mold: any coding agent generates a bespoke interface against the primitives inside the Neuvex sandbox. It touches presentation, never the vendor's core.
+- The vendor stays in control: every call, diff and rollback is visible in one console, and any primitive can be revoked or re-scoped at any time.
+
+## Capabilities
+
+- Contract enforcement: declarative allow/deny on data, actions and scopes, checked on every call.
+- Sandboxed runtime: generated interfaces run isolated and cannot reach the vendor's infrastructure or data path.
+- Middleware hooks: typed, sandboxed, reversible transforms, filters and routing between primitives.
+- Agent-neutral: works with any coding agent, with no lock-in to a single agent vendor.
+- Data governance: field-level policies and PII redaction before data reaches an agent or a rendered surface.
+- Audit and rollback: every mold is versioned and diffable, with one-click rollback and a full audit log.
+- Self-host or cloud: run Neuvex in your own VPC or on Neuvex's.
+
+## Company
+
+- Website: https://neuvex.cloud/
+- Founder & CEO: Shriman Maheshwari (https://www.linkedin.com/in/shriman-maheshwari-195abb32a/)
+- Contact: operations@neuvex.cloud
+
+## Pages
+
+- [Neuvex home](https://neuvex.cloud/): product overview, how it works, capabilities, founder, trust and data, FAQ
+- [FAQ](https://neuvex.cloud/#faq): questions about primitives, agents, safety and deployment

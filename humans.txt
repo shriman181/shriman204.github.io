@@ -1,0 +1,13 @@
+/* TEAM */
+Founder & CEO: Shriman Maheshwari
+Contact: operations@neuvex.cloud
+LinkedIn: https://www.linkedin.com/in/shriman-maheshwari-195abb32a/
+
+/* SITE */
+Last update: 2026/10/13
+Language: English
+Standards: HTML5, CSS3, JavaScript
+Components: Inter and JetBrains Mono (Google Fonts)
+Software: Hand-written single-file HTML
+Hosting: GitHub Pages
+Website: https://neuvex.cloud/
