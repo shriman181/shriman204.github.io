@@ -1,0 +1,4 @@
+Contact: mailto:operations@neuvex.cloud
+Expires: 2027-10-13T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://neuvex.cloud/.well-known/security.txt
